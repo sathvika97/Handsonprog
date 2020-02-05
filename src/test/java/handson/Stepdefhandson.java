@@ -40,6 +40,9 @@ driver.findElement(By .xpath("//h4[text()='Add Category']")).click();
 driver.findElement(By .name("catgName")).sendKeys("Sports");
 driver.findElement(By .name("catgDesc")).sendKeys("playing");
 driver.findElement(By .linkText("adminHome")).click();
-
+driver.findElement(By .xpath("//h4[text()='Add Sub Category']")).click();
+driver.findElement(By .name("catname")).sendKeys("Sports");
+driver.findElement(By .name("subCatgName")).sendKeys("BasketBall");
+driver.findElement(By .name("subCatgName")).sendKeys("VolleyBall");
 }
 }
